@@ -9,3 +9,10 @@ step 4 commit
       
 step 5 docker images
 step 6  docker run -p 8080:8080 deep/rest-docker-demo:v3
+
+using automation
+step 1 create docker file
+step 2 excute command in idea terminal
+      docker build -t deep/rest-docker-demo:v4 .
+step 4 exec command
+     docker run -p 8080:8080 deep/rest-docker-demo:v3
